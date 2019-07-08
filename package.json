@@ -9,5 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ambientweather-ws3000": "git://github.com/EpicVoyage/ambientweather-ws3000"
   }
 }
