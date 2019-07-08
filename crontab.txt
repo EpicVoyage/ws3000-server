@@ -1,0 +1,1 @@
+@reboot node ~/ws3000-server/index.js
