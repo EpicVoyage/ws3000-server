@@ -9,7 +9,7 @@ http://[hostname-or-ip]:8080/[sensor-id]
 Ex. http://192.168.0.100:8080/2
 
 ```json
-{"active":true,"temperature":"26.3","humidity":52}
+{"active":true,"temperature":"27.5","temperatureF":"81.5","heatIndexF":"84.9","dewPoint":"21.0","dewPointF":"69.8","humidity":67,"lastUpdateUTC":1565267626}
 ```
 
 # Raspbian Quickstart
@@ -17,7 +17,7 @@ Ex. http://192.168.0.100:8080/2
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install npm git build-essential libusb libusb-dev
-git clone git@github.com:EpicVoyage/ws3000-server.git
+git clone https://github.com/EpicVoyage/ws3000-server.git
 cd ws3000-server
 npm install
 sudo cp 69-stmicro.rules /etc/udev/rules.d/
